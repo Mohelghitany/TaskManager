@@ -1,5 +1,14 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a responsive Task Management application built with React and Framer Motion. The application allows users to add, filter, and manage tasks with a beautiful animated interface. Additionally, tasks are saved locally, so they persist after refreshing the page.
 
+Features
+Add Tasks: Add tasks with a label and description.
+Mark as Complete: Toggle tasks as completed or incomplete.
+Delete Tasks: Remove tasks from the list.
+Task Filtering: Filter tasks to view all, completed, or incomplete tasks.
+Task Details Modal: View a task's full details in a modal with a blurred background effect.
+Local Storage Persistence: Tasks are saved in local storage and persist across page reloads.
+Animations: Smooth animations on buttons, tasks, and modals using Framer Motion.
 ## Getting Started
 
 First, run the development server:
